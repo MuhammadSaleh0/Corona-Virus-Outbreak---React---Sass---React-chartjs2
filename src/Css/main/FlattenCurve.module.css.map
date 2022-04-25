@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,aAAa,CAAC;EACV,YAAY,EAAE,IAAI;CAoBrB;;AArBD,AAGI,aAHS,CAGT,EAAE,CAAC;EACC,SAAS,EAAE,MAAM;EACjB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,aAAa,EAAE,KAAK;EACpB,cAAc,EAAE,GAAG;EACnB,cAAc,EAAE,UAAU;CAK7B;;ACdG,MAAM,EAAE,SAAS,EAAE,KAAK;EDAhC,AAGI,aAHS,CAGT,EAAE,CAAC;IASK,SAAS,EAAE,MAAM;GAExB;;;AAdL,AAgBI,aAhBS,CAgBT,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,GAAG;CACrB",
+    "sources": [
+        "../FlattenCurve.module.scss",
+        "../_mixin.scss"
+    ],
+    "names": [],
+    "file": "FlattenCurve.module.css"
+}

@@ -1,0 +1,92 @@
+.InputSearch {
+    margin-block: 1.2rem;
+
+    input {
+        width: 100%;
+        border: none;
+        outline: none;
+        font-size: 1.3rem;
+        height: 35px;
+        letter-spacing: 2px;
+        color: hsl(240, 50%, 9%);
+        transition: .5s;
+        border-radius: 6px;
+        padding: 1rem;
+
+        &::placeholder {
+            transition: .8s;
+        }
+
+        &:hover::placeholder {
+            opacity: 0;
+        }
+
+        &:hover,
+        &:focus {
+            outline: 3px solid hsl(240, 69%, 64%);
+        }
+    }
+
+
+
+}
+
+.CountrySearch {
+    margin-block: 1rem;
+    background-color: white;
+    border-radius: 6px;
+    padding: 1rem;
+
+    ul {
+        margin-bottom: 2rem;
+        position: relative;
+        padding-bottom: 2rem;
+
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 3px;
+            width: 50%;
+            border-radius: 50px;
+            background: linear-gradient(to right, rgba(136, 31, 31, 0.829) 10%, rgba(31, 168, 99, 0.685) 90%);
+        }
+
+        li {
+            width: 80%;
+            margin-inline: auto;
+            padding: .5rem;
+            margin-block: .3rem;
+            box-shadow: 0 1px 6px hsla(0, 0%, 0%, 0.294);
+            font-size: 1rem;
+            color: hsl(233, 41%, 9%);
+            letter-spacing: 1px;
+            border-radius: 20px;
+            transition: .3s;
+
+            &:hover {
+                transform: translateX(50px);
+                box-shadow: 0 3px 6px hsla(0, 0%, 0%, 0.63);
+            }
+
+            span {
+                margin-left: 5px;
+            }
+
+        }
+
+        .deaths {
+            color: hsl(0, 100%, 43%);
+        }
+
+        .recovered {
+            color: hsl(120, 100%, 32%);
+        }
+
+        .critical {
+            color: hsl(60, 100%, 23%);
+        }
+    }
+}

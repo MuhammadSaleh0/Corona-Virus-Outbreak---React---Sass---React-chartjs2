@@ -1,0 +1,73 @@
+.table {
+  text-align: left;
+  margin-block: 2rem;
+  padding: 1.2rem;
+  background-color: white;
+  color: #404040;
+  border-radius: 6px;
+  overflow-x: scroll;
+  -webkit-animation: fade 1s ease;
+          animation: fade 1s ease;
+  opacity: 1;
+}
+
+.table table {
+  background-color: #e6e6e6;
+}
+
+.table table td {
+  padding: .6rem .9rem;
+  background-color: white;
+  border-radius: 4px;
+  min-width: 200px;
+  letter-spacing: 1px;
+}
+
+.table table .TableHead td {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.table table .country {
+  font-size: 1.1rem;
+  color: #375e70;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.table table .deaths {
+  color: #db0000;
+}
+
+.table table .recovered {
+  color: #00a300;
+}
+
+.table table .critical {
+  color: #e6e600;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=Table.module.css.map */

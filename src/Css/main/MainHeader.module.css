@@ -1,0 +1,73 @@
+.mainHeader {
+  text-align: center;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.6;
+  margin: 8rem 0 1rem;
+  color: #e6e6e6;
+  letter-spacing: 1px;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 575px) {
+  .mainHeader {
+    font-size: 1.5rem;
+  }
+}
+
+.sourceInfo {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+@media (max-width: 575px) {
+  .sourceInfo {
+    font-size: 1rem;
+  }
+  .sourceInfo div {
+    font-size: 1rem;
+  }
+}
+
+.sourceInfo p:nth-child(1) {
+  padding: .4rem;
+}
+
+.sourceInfo p:nth-child(1) a {
+  color: #706ee7;
+  letter-spacing: 2px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.sourceInfo p:nth-child(1) a:hover {
+  color: #8280ea;
+}
+
+.sourceInfo p:nth-child(2) {
+  margin: .3rem 0;
+}
+
+.sourceInfo div {
+  font-size: 1.7rem;
+}
+
+@media (max-width: 575px) {
+  .sourceInfo div {
+    font-size: 1rem;
+  }
+}
+
+.sourceInfo div a {
+  color: #706ee7;
+  letter-spacing: 2px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.sourceInfo div a:hover {
+  color: #8280ea;
+}
+/*# sourceMappingURL=MainHeader.module.css.map */

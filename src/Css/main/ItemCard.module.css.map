@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACN,UAAU,EAAE,CAAC,CAAC,GAAG,CAAC,GAAG,CAAC,mBAAqB,EAAE,CAAC,CAAC,GAAG,CAAC,GAAG,CAAC,mBAAqB;EAC5E,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "../ItemCard.module.scss"
+    ],
+    "names": [],
+    "file": "ItemCard.module.css"
+}

@@ -1,0 +1,53 @@
+.nav {
+  margin-block: 1rem;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 6px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav ul li {
+  padding: .2rem .7rem;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  border: 1px solid white;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav ul li:hover:not(.active) {
+  background-color: white !important;
+  color: black;
+}
+
+.nav ul li .chartIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.nav ul li .chartIcon img {
+  max-width: 100%;
+}
+
+.active {
+  background-color: #3273dc !important;
+}
+/*# sourceMappingURL=NavButtoms.module.css.map */

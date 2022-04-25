@@ -1,0 +1,41 @@
+.Charts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(283px, 1fr));
+    gap: 15px;
+    text-align: center;
+    margin-block: 2rem;
+    animation: scale 1s ease;
+
+
+    .ChartItem {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1.5rem 1rem;
+        // width: 100px;
+        height: auto !important;
+
+        h3 {
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+
+        }
+    }
+
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0);
+
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

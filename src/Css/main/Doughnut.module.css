@@ -1,0 +1,10 @@
+.DoughnutChart {
+  margin-block: 2.3rem;
+  width: 100%;
+}
+
+.DoughnutChart div {
+  width: 35%;
+  margin-inline: auto;
+}
+/*# sourceMappingURL=Doughnut.module.css.map */

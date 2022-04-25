@@ -1,0 +1,54 @@
+.stat {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 35px;
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.item {
+  height: 340px;
+  font-size: 1.7rem;
+  padding-top: 2rem;
+}
+
+@media (max-width: 575px) {
+  .item {
+    margin-inline: .5rem;
+  }
+}
+
+.item .itemDetails {
+  margin: 1rem 0;
+}
+
+.item .itemDetails .image {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.item .itemDetails .image img {
+  max-width: 100%;
+}
+
+.item .itemDetails p {
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.item .itemDetails div {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.item .itemDetails .recover {
+  color: #27b427;
+}
+
+.item .itemDetails .death {
+  color: red;
+}
+/*# sourceMappingURL=Statistics.module.css.map */

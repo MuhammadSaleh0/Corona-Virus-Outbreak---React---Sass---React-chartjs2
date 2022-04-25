@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACX,YAAY,EAAE,MAAM;EACpB,KAAK,EAAE,IAAI;CAMd;;AARD,AAII,cAJU,CAIV,GAAG,CAAC;EACA,KAAK,EAAE,GAAG;EACV,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "../Doughnut.module.scss"
+    ],
+    "names": [],
+    "file": "Doughnut.module.css"
+}

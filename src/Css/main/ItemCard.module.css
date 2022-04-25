@@ -1,0 +1,6 @@
+.itemCard {
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.63), 0 3px 6px rgba(0, 0, 0, 0.53);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.63), 0 3px 6px rgba(0, 0, 0, 0.53);
+  height: 340px;
+}
+/*# sourceMappingURL=ItemCard.module.css.map */

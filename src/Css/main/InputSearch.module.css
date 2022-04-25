@@ -1,0 +1,123 @@
+.InputSearch {
+  margin-block: 1.2rem;
+}
+
+.InputSearch input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  height: 35px;
+  letter-spacing: 2px;
+  color: #0b0b22;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.InputSearch input::-webkit-input-placeholder {
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+.InputSearch input:-ms-input-placeholder {
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+.InputSearch input::-ms-input-placeholder {
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+.InputSearch input::placeholder {
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+.InputSearch input:hover::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.InputSearch input:hover:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.InputSearch input:hover::-ms-input-placeholder {
+  opacity: 0;
+}
+
+.InputSearch input:hover::placeholder {
+  opacity: 0;
+}
+
+.InputSearch input:hover, .InputSearch input:focus {
+  outline: 3px solid #6464e3;
+}
+
+.CountrySearch {
+  margin-block: 1rem;
+  background-color: white;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.CountrySearch ul {
+  margin-bottom: 2rem;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.CountrySearch ul::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 3px;
+  width: 50%;
+  border-radius: 50px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(10%, rgba(136, 31, 31, 0.829)), color-stop(90%, rgba(31, 168, 99, 0.685)));
+  background: linear-gradient(to right, rgba(136, 31, 31, 0.829) 10%, rgba(31, 168, 99, 0.685) 90%);
+}
+
+.CountrySearch ul li {
+  width: 80%;
+  margin-inline: auto;
+  padding: .5rem;
+  margin-block: .3rem;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.294);
+          box-shadow: 0 1px 6px rgba(0, 0, 0, 0.294);
+  font-size: 1rem;
+  color: #0e1020;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.CountrySearch ul li:hover {
+  -webkit-transform: translateX(50px);
+          transform: translateX(50px);
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.63);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.63);
+}
+
+.CountrySearch ul li span {
+  margin-left: 5px;
+}
+
+.CountrySearch ul .deaths {
+  color: #db0000;
+}
+
+.CountrySearch ul .recovered {
+  color: #00a300;
+}
+
+.CountrySearch ul .critical {
+  color: #757500;
+}
+/*# sourceMappingURL=InputSearch.module.css.map */

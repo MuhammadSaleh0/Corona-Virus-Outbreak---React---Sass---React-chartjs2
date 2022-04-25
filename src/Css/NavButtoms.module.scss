@@ -1,0 +1,41 @@
+.nav {
+    margin-block: 1rem;
+
+    ul {
+        display: flex;
+        border-radius: 6px;
+        align-items: center;
+
+        li {
+            padding: .2rem .7rem;
+            flex-basis: 100%;
+            border: 1px solid white;
+            text-align: center;
+            cursor: pointer;
+            transition: .5s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover:not(.active) {
+                background-color: white !important;
+                color: black;
+            }
+
+            .chartIcon {
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+
+        }
+    }
+}
+
+.active {
+    background-color: #3273dc !important;
+}

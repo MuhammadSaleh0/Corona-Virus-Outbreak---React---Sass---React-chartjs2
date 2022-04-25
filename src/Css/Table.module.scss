@@ -1,0 +1,68 @@
+.table {
+    text-align: left;
+    margin-block: 2rem;
+    padding: 1.2rem;
+    background-color: white;
+    color: hsl(0, 0%, 25%);
+    border-radius: 6px;
+    // border: 1px solid hsl(0, 0%, 13%);
+    overflow-x: scroll;
+    animation: fade 1s ease;
+    opacity: 1;
+
+
+
+    table {
+        background-color: hsl(0, 0%, 90%);
+
+        td {
+            padding: .6rem .9rem;
+            background-color: white;
+            border-radius: 4px;
+            min-width: 200px;
+            letter-spacing: 1px;
+
+        }
+
+        .TableHead {
+            td {
+                font-weight: bold;
+                font-size: 1.1rem;
+            }
+        }
+
+        .country {
+            font-size: 1.1rem;
+            color: rgb(55, 94, 112);
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .deaths {
+            color: hsl(0, 100%, 43%);
+        }
+
+        .recovered {
+            color: hsl(120, 100%, 32%);
+        }
+
+        .critical {
+            color: hsl(60, 100%, 45%);
+        }
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
